@@ -1,0 +1,143 @@
+{
+ "features": [
+  "Age",
+  "BMI",
+  "Blood_Pressure",
+  "Cholesterol",
+  "Glucose_Level",
+  "Heart_Rate",
+  "Sleep_Hours",
+  "Exercise_Hours",
+  "Water_Intake",
+  "Stress_Level",
+  "Smoking",
+  "Alcohol",
+  "Diet",
+  "MentalHealth",
+  "PhysicalActivity",
+  "MedicalHistory",
+  "Allergies",
+  "Diet_Type__Vegan",
+  "Diet_Type__Vegetarian",
+  "Blood_Group_AB",
+  "Blood_Group_B",
+  "Blood_Group_O"
+ ],
+ "stats": {
+  "Age": {
+   "min": 0.0,
+   "max": 100.0,
+   "median": 29.0
+  },
+  "BMI": {
+   "min": 19.0,
+   "max": 32.0,
+   "median": 26.0
+  },
+  "Blood_Pressure": {
+   "min": 60.0,
+   "max": 225.0,
+   "median": 134.0
+  },
+  "Cholesterol": {
+   "min": 192.0,
+   "max": 207.0,
+   "median": 199.0
+  },
+  "Glucose_Level": {
+   "min": 93.0,
+   "max": 107.0,
+   "median": 100.0
+  },
+  "Heart_Rate": {
+   "min": 67.0,
+   "max": 80.0,
+   "median": 74.0
+  },
+  "Sleep_Hours": {
+   "min": 0.0,
+   "max": 14.0,
+   "median": 7.0
+  },
+  "Exercise_Hours": {
+   "min": -0.0,
+   "max": 8.0,
+   "median": 2.0
+  },
+  "Water_Intake": {
+   "min": 0.0,
+   "max": 10.0,
+   "median": 4.0
+  },
+  "Stress_Level": {
+   "min": 0.0,
+   "max": 12.0,
+   "median": 4.0
+  },
+  "Smoking": {
+   "min": 0.0,
+   "max": 2.0,
+   "median": 1.0
+  },
+  "Alcohol": {
+   "min": 0.0,
+   "max": 2.0,
+   "median": 1.0
+  },
+  "Diet": {
+   "min": 0.0,
+   "max": 2.0,
+   "median": 1.0
+  },
+  "MentalHealth": {
+   "min": 0.0,
+   "max": 2.0,
+   "median": 1.0
+  },
+  "PhysicalActivity": {
+   "min": 0.0,
+   "max": 2.0,
+   "median": 1.0
+  },
+  "MedicalHistory": {
+   "min": 0.0,
+   "max": 2.0,
+   "median": 1.0
+  },
+  "Allergies": {
+   "min": 0.0,
+   "max": 2.0,
+   "median": 1.0
+  },
+  "Diet_Type__Vegan": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 0.0
+  },
+  "Diet_Type__Vegetarian": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 0.0
+  },
+  "Blood_Group_AB": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 0.0
+  },
+  "Blood_Group_B": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 0.0
+  },
+  "Blood_Group_O": {
+   "min": 0.0,
+   "max": 1.0,
+   "median": 0.0
+  }
+ },
+ "test_metrics": {
+  "accuracy": 0.937,
+  "f1": 0.94,
+  "roc_auc": 0.982
+ }
+}
